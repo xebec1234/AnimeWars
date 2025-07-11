@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(15px);
+    z-index: -1;
+}
+
+.nav-bar{
+    height: 8vh;
+    width: 100vw;
+    background-color: #093469c1;
+}
+
+.webName{
+    color: azure;
+    position: absolute;
+    top: 2.5%;
+    left: 6%;
+}
+
+.logo{
+    position: absolute;
+    top: -70%;
+    left: -50%;
+    height: 7vh;
+    width: 3vw;
+}
+
+.user-name {
+    position: absolute;
+    top: 2.5%;
+    left: 48%;
+    font-weight: bolder;
+    color: #ddd;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    display: inline-block; 
+    text-align: center;
+    line-height: 30px; 
+}
+
+.homebtn {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 10%;
+    top: 2%;
+    background: none;
+    cursor: pointer; 
+    color: #ddd;
+}
+
+.logoutbtn {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    background: white;
+    border-radius: 5px; 
+    cursor: pointer;
+    color: black;
+}
+
+.logoutbtn:hover, .homebtn:hover  {
+    background-color: #ddd; 
+    border-radius: 5px; 
+    color: #000;
+}
+
+.content-container {
+    width: 80%;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px; /* Space between rows */
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    border-radius: 8px 8px 0 0;
+}
+
+tr {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: table-row;
+    overflow: hidden;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+td {
+    padding: 10px 15px;
+    border: none;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

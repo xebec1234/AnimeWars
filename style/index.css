@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(15px);
+    z-index: -1;
+}
+
+.nav-bar{
+    height: 8vh;
+    width: 100vw;
+    background-color: #093469c1;
+}
+
+.webName{
+    color: azure;
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+}
+
+.logo{
+    position: absolute;
+    top: -70%;
+    left: -50%;
+    height: 7vh;
+    width: 3vw;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block; 
+    text-align: center;
+    line-height: 30px; 
+    color: white;
+}
+
+.loginbtn {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 10%;
+    top: 2%;
+    background: none;
+    cursor: pointer; 
+}
+
+.regbtn {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    background: white;
+    border-radius: 5px; 
+    cursor: pointer;
+    color: black;
+}
+
+.regbtn:hover, .loginbtn:hover {
+    background-color: #ddd; 
+    border-radius: 5px; 
+    color: #000;
+}
+
+
+/* Post card container */
+.post-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    width: 40vw;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #777;
+}
+
+.post-header .username {
+    font-weight: bold;
+}
+
+.post-body {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.topic {
+    font-weight: bolder;
+}
+
+.post-footer {
+    position: absolute;
+    right:  30%;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Optional: Add hover effect */
+.post:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
